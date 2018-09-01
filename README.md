@@ -1,5 +1,5 @@
 <h1>
-Java Style String Class
+String Class from Scratch
 </h1>
 
 <h2>
