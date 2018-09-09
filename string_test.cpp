@@ -6,12 +6,13 @@ int main(int argc, char** argv){
     
     // #1
     String s1("taco");
-    ASSERT(4 == s1.length());
+    ASSERT(4 == s1.getLength());
     // #2
     ASSERT(s1.equals("taco"));
     // #3
     ASSERT(!s1.equals("burrito"));
     // #4
+
     String s2(s1);
     ASSERT(s2.equals("taco"));
     // #5
@@ -25,8 +26,6 @@ int main(int argc, char** argv){
     String s3(" burritos");
     s2.append(s3);
     ASSERT(s2.equals("tacos and burritos"));
-
-
 
     return 0;
 }
